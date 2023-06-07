@@ -1,10 +1,19 @@
 body {
   background-color: #fffbf7;
 }
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 h1 {
   color: #025157;
   text-align: center;
 }
 button {
   background-color: #c0119a;
+}
+
+li {
+  display: inline;
 }

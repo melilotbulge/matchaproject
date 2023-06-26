@@ -5,35 +5,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,100;1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Matcha</title>
   </head>
   <header class="header">
     <!-- Logo con link a la página principal -->
     <a href="/">
-      <img src="logo matcha.png" alt="Matcha" />
+      <img class="logo" src="logo matcha.png" alt="Matcha" />
     </a>
     <!-- Menú de navegación -->
-    <nav>
+    <nav class="navbar">
       <ul>
         <li>Platform</li>
+        &nbsp &nbsp
         <li>Pricing</li>
+        &nbsp &nbsp
         <li>Customers</li>
+        &nbsp &nbsp
         <li>Resources</li>
+        &nbsp &nbsp
         <li>About</li>
       </ul>
     </nav>
     <!-- Contenedor de acciones de usuario -->
-    <div>
-      <a>Sign In</a>
+    <div class="others">
+      <a href="/login" class="signin"> Sign In</a>
       <button>Start free trial</button>
     </div>
   </header>
   <body>
-    <h1>Build your blog. Build your bussiness</h1>
+    <br />
+    <br />
+    <br />
+    <br />
+    <section class="main">
+      <h1>Build your blog. Build your bussiness</h1>
 
-    <form>
-      <input type="email" />
-      <button type="submit">Try it now rarr</button>
-    </form>
+      <form>
+        Ingresa tu email:
+        <input type="email" />
+        <button type="submit" class="texto-boton">Try it now rarr</button>
+      </form>
+
+      <p class="texto-promocional">
+        Start publishing today with a <strong>free 7-day trial.</strong>
+      </p>
+      <p class="texto-promocional"><strong>No credit card</strong> required.</p>
+    </section>
+    <!-- Pedir ayuda centrar el video -->
+    <video id="video1" autoplay controls>
+      <source src="videomatcha.mp4" type="video/mp4" />
+    </video>
   </body>
 </html>
